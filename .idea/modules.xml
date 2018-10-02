@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaAuto.iml" filepath="$PROJECT_DIR$/.idea/JavaAuto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaAuto_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaAuto_main.iml" group="JavaAuto" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaAuto_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaAuto_test.iml" group="JavaAuto" />
     </modules>
   </component>
 </project>
