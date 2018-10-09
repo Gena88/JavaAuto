@@ -31,12 +31,13 @@ public class GroupCreationTest {
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbookv4.1.4/");
         wd.findElement(By.cssSelector("html")).click();
+        wd.findElement(By.linkText("home")).click();
 
     }
     
     @Test
     public void testGroupCreation() {
-        wd.findElement(By.linkText("home")).click();
+
         wd.findElement(By.linkText("groups")).click();
         wd.findElement(By.name("new")).click();
         wd.findElement(By.name("group_name")).click();
