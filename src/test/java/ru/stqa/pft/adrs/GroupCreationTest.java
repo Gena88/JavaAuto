@@ -1,20 +1,13 @@
 package ru.stqa.pft.adrs;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-import static org.testng.Assert.*;
 
 import java.util.concurrent.TimeUnit;
-import java.util.Date;
-import java.io.File;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.*;
-import static org.openqa.selenium.OutputType.*;
 
 public class GroupCreationTest {
 
@@ -38,21 +31,41 @@ public class GroupCreationTest {
     @Test
     public void testGroupCreation() {
 
-        wd.findElement(By.linkText("groups")).click();
-        wd.findElement(By.name("new")).click();
-        wd.findElement(By.name("group_name")).click();
-        wd.findElement(By.name("group_name")).clear();
-        wd.findElement(By.name("group_name")).sendKeys("test2");
-        wd.findElement(By.name("group_header")).click();
-        wd.findElement(By.name("group_header")).clear();
-        wd.findElement(By.name("group_header")).sendKeys("test2");
-        wd.findElement(By.name("group_footer")).click();
-        wd.findElement(By.name("group_footer")).clear();
-        wd.findElement(By.name("group_footer")).sendKeys("test2");
-        wd.findElement(By.name("submit")).click();
+        gotoGroupPage();
+        initGroupCreation();
+        fillGroupForm(new GroupDate("test2", "test2", "test2"));
+        submintGroupCreation();
+        returnToGroupPage();
+    }
+
+    private void returnToGroupPage() {
         wd.findElement(By.linkText("group page")).click();
     }
-    
+
+    private void submintGroupCreation() {
+        wd.findElement(By.name("submit")).click();
+    }
+
+    private void fillGroupForm(GroupDate groupDate) {
+        wd.findElement(By.name("group_name")).click();
+        wd.findElement(By.name("group_name")).clear();
+        wd.findElement(By.name("group_name")).sendKeys(groupDate.getName());
+        wd.findElement(By.name("group_header")).click();
+        wd.findElement(By.name("group_header")).clear();
+        wd.findElement(By.name("group_header")).sendKeys(groupDate.getHeader());
+        wd.findElement(By.name("group_footer")).click();
+        wd.findElement(By.name("group_footer")).clear();
+        wd.findElement(By.name("group_footer")).sendKeys(groupDate.getFooter());
+    }
+
+    private void initGroupCreation() {
+        wd.findElement(By.name("new")).click();
+    }
+
+    private void gotoGroupPage() {
+        wd.findElement(By.linkText("groups")).click();
+    }
+
     @AfterMethod
     public void tearDown() {
         wd.quit();
