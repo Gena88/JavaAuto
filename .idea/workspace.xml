@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/GroupDeletionTest.java" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a133c04-f523-46b0-9dde-1977469a82e0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,21 +49,119 @@
         </entry>
       </file>
       <file leaf-file-name="GroupCreationTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/GroupCreationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#2016#2017#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-                <element signature="e#2031#2032#0" expanded="true" />
-                <element signature="e#2092#2093#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2158#2159#0" expanded="true" />
+                <element signature="e#2183#2184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigationHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/NavigationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/GroupHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDeletionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/GroupDeletionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/model/GroupDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -417,6 +518,15 @@
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/GroupDeletionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/model/GroupDate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/GroupHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -487,6 +597,33 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="adrs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAuto" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adrs" type="462c0819:PsiDirectoryNode" />
+              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAuto" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adrs" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAuto" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adrs" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -501,6 +638,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.adrs.appmanager" />
+      <recent name="ru.stqa.pft.adrs" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -513,7 +656,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTest (5)">
+  <component name="RunManager" selected="TestNG.GroupCreationTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -533,11 +676,11 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GroupCreationTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaAuto_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adrs.*" />
+          <option name="PATTERN" value="ru.stqa.pft.adrs.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -545,94 +688,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.GroupCreationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="GroupCreationTest (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaAuto_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adrs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.GroupCreationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="GroupCreationTest (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaAuto_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adrs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.GroupCreationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="GroupCreationTest (5)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaAuto_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adrs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.GroupCreationTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.test.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -653,7 +709,7 @@
       <module name="JavaAuto_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adrs.*" />
+          <option name="PATTERN" value="ru.stqa.pft.adrs.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -661,10 +717,97 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.GroupCreationTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.test.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaAuto_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adrs.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.test.GroupCreationTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GroupDeletionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaAuto_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adrs.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.test.GroupDeletionTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GroupDeletionTest.testGroupDeletion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaAuto_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adrs.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adrs" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adrs.test.GroupDeletionTest" />
+      <option name="METHOD_NAME" value="testGroupDeletion" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -702,18 +845,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.GroupCreationTest" />
-      <item itemvalue="TestNG.GroupCreationTest (1)" />
-      <item itemvalue="TestNG.GroupCreationTest (2)" />
       <item itemvalue="TestNG.GroupCreationTest (3)" />
       <item itemvalue="TestNG.GroupCreationTest (5)" />
+      <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
+      <item itemvalue="TestNG.GroupDeletionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupDeletionTest" />
+        <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
         <item itemvalue="TestNG.GroupCreationTest (5)" />
         <item itemvalue="TestNG.GroupCreationTest (3)" />
-        <item itemvalue="TestNG.GroupCreationTest (2)" />
-        <item itemvalue="TestNG.GroupCreationTest (1)" />
-        <item itemvalue="TestNG.GroupCreationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -731,40 +874,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTest_(2) - 2018.10.04 at 17h 09m 21s.xml">
-      <configuration name="GroupCreationTest (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest_(3) - 2018.10.04 at 17h 10m 33s.xml">
-      <configuration name="GroupCreationTest (3)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest - 2018.10.04 at 17h 17m 36s.xml">
+    <history-entry file="GroupCreationTest - 2018.10.09 at 14h 04m 29s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.10.04 at 17h 55m 35s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTest_testGroupDeletion - 2018.10.09 at 14h 10m 03s.xml">
+      <configuration name="GroupDeletionTest.testGroupDeletion" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.10.04 at 17h 56m 47s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTest - 2018.10.09 at 14h 11m 46s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTest - 2018.10.09 at 13h 18m 55s.xml">
+    <history-entry file="GroupCreationTest - 2018.10.09 at 14h 28m 48s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTest - 2018.10.09 at 13h 19m 14s.xml">
+    <history-entry file="GroupCreationTest - 2018.10.09 at 14h 39m 12s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTest - 2018.10.09 at 13h 19m 42s.xml">
+    <history-entry file="GroupDeletionTest - 2018.10.09 at 14h 40m 42s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest - 2018.10.09 at 14h 45m 56s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest - 2018.10.09 at 14h 59m 36s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest - 2018.10.09 at 15h 02m 40s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest - 2018.10.09 at 15h 02m 55s.xml">
       <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest_(1) - 2018.10.09 at 13h 35m 07s.xml">
-      <configuration name="GroupCreationTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest_(2) - 2018.10.09 at 13h 45m 07s.xml">
-      <configuration name="GroupCreationTest (2)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -775,11 +917,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.16822916" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="4" visible="true" weight="0.3296875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -807,20 +949,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/GroupCreationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -884,20 +1018,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/GroupCreationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2158#2159#0" expanded="true" />
+            <element signature="e#2183#2184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/model/GroupDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/GroupDeletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/GroupCreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

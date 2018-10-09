@@ -1,4 +1,4 @@
-package ru.stqa.pft.adrs;
+package ru.stqa.pft.adrs.model;
 
 public class GroupDate {
     private final String name;
