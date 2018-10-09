@@ -14,7 +14,7 @@ public class ApplicationManager {
 
 
     public void init() {
-        System.setProperty("webdriver.gecko.driver","C:\\GitHub_repository\\geckodriver.exe");
+//        System.setProperty("webdriver.gecko.driver","C:\\GitHub_repository\\geckodriver.exe");
        wd = new FirefoxDriver();
 //        wd = new ChromeDriver();
 //        wd = new InternetExplorerDriver();
