@@ -19,7 +19,7 @@ import static org.openqa.selenium.OutputType.*;
 
 public class ContactModification extends TestBase {
 
-    
+    //Тест не работает!!!
 
     @Test
     public void ContactModification() {

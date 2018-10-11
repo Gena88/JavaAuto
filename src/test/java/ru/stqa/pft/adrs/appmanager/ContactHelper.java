@@ -21,15 +21,18 @@ public class ContactHelper extends HelperBase {
         click(By.name("submit"));
     }
 
+    //Вспомагательный метод к неработающему тесту!!!
     public void submintContact() {
         click(By.name("update"));
     }
 
+    //Вспомагательный метод к неработающему тесту!!!
     public void initContact() {
         click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[7]/a/img"));
 
     }
 
+    //Вспомагательный метод к неработающему тесту!!!
     public void selectContact() {
         click(By.id("id2"));
 
