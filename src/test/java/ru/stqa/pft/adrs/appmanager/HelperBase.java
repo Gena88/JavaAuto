@@ -13,10 +13,12 @@ public class HelperBase {
         this.wd = wd;
     }
 
+    // Нажатие на клавишу (например нажимаем на клавишу иниициирования добавления новой группы)
     protected void click(By locator) {
         wd.findElement(locator).click();
     }
 
+    //Метод заполняющий выбранное поле (By locator), определенным текстом (text)
     protected void type(By locator, String text) {
         click(locator);
         if(text != null) {

@@ -12,16 +12,19 @@ public class NavigationHelper extends HelperBase {
         super (wd);
     }
 
+    //Переход на страницу ГРУППЫ
     public void gotoGroupPage() {
 
         click(By.linkText("groups"));
     }
 
+    //Переход на страницу КОНТАКТЫ
     public void gotoContactPage(){
         click(By.linkText("add new"));
 
     }
 
+    //Возврат на ГЛАВНУЮ СТРАНИЦУ
     public void gotoHomePage(){
         click(By.linkText("home page"));
 

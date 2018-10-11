@@ -3,7 +3,6 @@ package ru.stqa.pft.adrs.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.stqa.pft.adrs.model.ContactDate;
-import ru.stqa.pft.adrs.test.TestBase;
 
 public class ContactHelper extends HelperBase {
     private WebDriver wd;

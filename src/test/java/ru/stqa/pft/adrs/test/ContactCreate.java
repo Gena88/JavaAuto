@@ -1,8 +1,6 @@
 package ru.stqa.pft.adrs.test;
 
 import org.testng.annotations.Test;
-
-import org.openqa.selenium.*;
 import ru.stqa.pft.adrs.model.ContactDate;
 
 public class ContactCreate extends TestBase {
