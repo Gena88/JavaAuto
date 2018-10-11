@@ -44,7 +44,6 @@ public class GroupHelper extends HelperBase {
 
     //Выбор группы
     public void selectGroup() {
-
         click(By.xpath("//div[@id='content']/form[2]/input[2]"));
     }
 
