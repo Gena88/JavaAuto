@@ -8,13 +8,11 @@ public class NavigationHelper extends HelperBase {
     private WebDriver wd;
 
     public NavigationHelper(WebDriver wd) {
-
         super (wd);
     }
 
     //Переход на страницу ГРУППЫ
     public void gotoGroupPage() {
-
         click(By.linkText("groups"));
     }
 
