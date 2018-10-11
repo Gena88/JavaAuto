@@ -1,12 +1,13 @@
 package ru.stqa.pft.adrs.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqa.pft.adrs.model.GroupDate;
 
 public class GroupHelper extends HelperBase {
 
-    public GroupHelper(FirefoxDriver wd) {
+    public GroupHelper(WebDriver wd) {
         super(wd);
     }
 
@@ -15,6 +16,7 @@ public class GroupHelper extends HelperBase {
     }
 
     public void submintGroupCreation() {
+
         click(By.name("submit"));
     }
 
@@ -25,10 +27,12 @@ public class GroupHelper extends HelperBase {
     }
 
     public void initGroupCreation() {
+
         click(By.name("new"));
     }
 
     public void deleteSelectedGroup() {
+
         click(By.name("delete"));
     }
 
