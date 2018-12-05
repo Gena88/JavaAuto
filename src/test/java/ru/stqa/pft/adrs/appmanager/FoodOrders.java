@@ -30,6 +30,7 @@ public class FoodOrders extends HelperBase {
     //Добавить в заказ: Удон Говяжий (нормальный)
     public void choiceUdonWithBeef_normal() {
             click(By.cssSelector("div.panel-warning:nth-child(1) > div:nth-child(2) > button:nth-child(1)"));
+//            click(By.cssSelector("button[]"));
 //        click(By.xpath("/html/body/div[2]/div/div/div/div/div/div/div/ui-view/div[1]/div[2]/div/div/div/ng-include/div[1]/div[2]/button[1]"));
     }
 

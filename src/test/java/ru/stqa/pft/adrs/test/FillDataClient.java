@@ -9,8 +9,19 @@ public class FillDataClient extends TestBase {
 
     public void testFillDataClient(){
 
+        app.getNavigation().gotoHomePage();
+        app.getNavigation().gotoNewOrder();
+        app.getNavigation().ss();
+        app.getFoodOrders().selectWOK();
+        app.getNavigation().ss();
+        app.getFoodOrders().choiceUdonWithBeef_normal();
+        app.getFoodOrders().selectDrinks_NonAlcoholic();
+        app.getFoodOrders().choiceFruitJuice();
+        app.getFoodOrders().addItemFood();
+
+        
 //        -Заполнение данных о клиенте-
-//        * Перейти на вкладку "Заказ"
+        app.getNavigation().gotoMakingOrder();
 //        * Заполнить поля:
 //        ** Телефон - 0001239745
 //        ** Имя клиента - Тестов Тест

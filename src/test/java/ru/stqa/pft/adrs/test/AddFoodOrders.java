@@ -13,6 +13,7 @@ public class AddFoodOrders extends TestBase {
         app.getNavigation().gotoNewOrder();
         app.getNavigation().ss();
         app.getFoodOrders().selectWOK();
+        app.getNavigation().ss();
         app.getFoodOrders().choiceUdonWithBeef_normal();
 //        ** Проверка:
 //        *** Блюдо добавлено в нижнюю таблицу:
