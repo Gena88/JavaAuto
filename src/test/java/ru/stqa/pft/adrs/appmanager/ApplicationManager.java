@@ -1,6 +1,5 @@
 package ru.stqa.pft.adrs.appmanager;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,7 +10,7 @@ public class ApplicationManager {
     WebDriver wd;
     private FoodOrders foodOrders;
     private Navigation navigation;
-    private GroupHelper groupHelper;
+    private MakingOrders makingOrders;
     private SessionHelper sessionHelper;
     private String browser;
 
@@ -31,7 +30,7 @@ public class ApplicationManager {
         wd.get("http://93.158.194.208:6005/login");
 //        wd.findElement(By.cssSelector("html")).click();
         foodOrders = new FoodOrders(wd);
-        groupHelper = new GroupHelper(wd);
+        makingOrders = new MakingOrders(wd);
         navigation = new Navigation(wd);
         sessionHelper = new SessionHelper(wd);
         sessionHelper.login("test", "test");
@@ -43,8 +42,8 @@ public class ApplicationManager {
         wd.quit();
     }
 
-    public GroupHelper getGroupHelper() {
-        return groupHelper;
+    public MakingOrders getMakingOrders() {
+        return makingOrders;
     }
 
     public Navigation getNavigation() {

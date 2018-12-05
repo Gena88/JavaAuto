@@ -19,14 +19,16 @@ public class FillDataClient extends TestBase {
         app.getFoodOrders().choiceFruitJuice();
         app.getFoodOrders().addItemFood();
 
-        
+
 //        -Заполнение данных о клиенте-
         app.getNavigation().gotoMakingOrder();
-//        * Заполнить поля:
-//        ** Телефон - 0001239745
-//        ** Имя клиента - Тестов Тест
-//        ** Адрес (улица, дом) - Пятницкая улица, 24
-//        ** Вид оплаты - Наличные
+        app.getMakingOrders().filingPhoneClient();
+        app.getNavigation().ss();
+        app.getMakingOrders().filingNameClient();
+        app.getMakingOrders().filingAdressClient();
+        app.getMakingOrders().paymentMethod();
+        app.getNavigation().ss();
+        app.getMakingOrders().clickCookButton();
 //        * Проверка автоматически заполненных полей:
 //        ** Название филиала - Новокузнецкий
 //        ** Источник заказа - Телефон

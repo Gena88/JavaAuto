@@ -19,6 +19,12 @@ public class HelperBase {
         wd.findElement(locator).click();
     }
 
+    // Выбор элемента ЭФ
+//    protected void select(By locator) {
+//
+//        wd.findElement(locator).isSelected();
+//    }
+
     //Метод заполняющий выбранное поле (By locator), определенным текстом (text)
     protected void type(By locator, String text) {
         click(locator);
@@ -28,6 +34,17 @@ public class HelperBase {
                 wd.findElement(locator).clear();
                 wd.findElement(locator).sendKeys(text);
             }
+        }
+    }
+
+
+    protected void paused() {
+        try {
+
+            Thread.sleep(2000);     //1000-задержка  на 1000 миллисекунду = 1 секунда
+
+        } catch (InterruptedException e) {
+            System.err.println(e.getMessage());
         }
     }
 
