@@ -8,9 +8,14 @@ import ru.stqa.pft.adrs.model.GroupDate;
 public class GroupHelper extends HelperBase {
 
     public GroupHelper(WebDriver wd) {
+
         super(wd);
     }
 
+
+
+
+    /*
     //Возврат на страницу Групп
     public void returnToGroupPage() {
 
@@ -56,4 +61,6 @@ public class GroupHelper extends HelperBase {
     public void submintGroupModification() {
         click(By.name("update"));
     }
+    */
+
 }

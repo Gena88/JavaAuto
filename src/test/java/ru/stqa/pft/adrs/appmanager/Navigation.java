@@ -1,16 +1,21 @@
 package ru.stqa.pft.adrs.appmanager;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class NavigationHelper extends HelperBase {
+public class Navigation extends HelperBase {
     private WebDriver wd;
 
-    public NavigationHelper(WebDriver wd) {
+    public Navigation(WebDriver wd) {
         super (wd);
     }
 
+    //Переход на стартовую страницу (operator/all)
+    public void gotoHomePage() {
+        wd.get("http://93.158.194.208:6005/operator/all");
+    }
+
+
+   /*
     //Переход на страницу ГРУППЫ
     public void gotoGroupPage() {
         click(By.linkText("groups"));
@@ -27,6 +32,6 @@ public class NavigationHelper extends HelperBase {
         click(By.linkText("home page"));
 
     }
-
+    */
 
 }

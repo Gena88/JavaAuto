@@ -15,6 +15,7 @@ public class HelperBase {
 
     // Нажатие на клавишу (например нажимаем на клавишу иниициирования добавления новой группы)
     protected void click(By locator) {
+
         wd.findElement(locator).click();
     }
 
