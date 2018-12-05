@@ -68,12 +68,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="720" />
+          <entry key="java" value="826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="720" />
+          <entry key="JAVA" value="826" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/FoodOrders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="278">
+              <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="156">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1101#1102#0" expanded="true" />
@@ -116,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/AddFoodOrders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="221">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/Navigation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
@@ -544,7 +544,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/model/GroupDate.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/GroupModificationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/model/ContactDate.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/ContactCreate.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/ContactDelete.java" />
@@ -555,10 +554,11 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/HelperBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/GroupHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/SessionHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/FoodOrders.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/Navigation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/AddFoodOrders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/FoodOrders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -658,7 +658,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544020208237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544023642765" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-pegas-test" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -819,40 +819,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddFoodOrders - 2018.12.05 at 16h 44m 15s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 00m 43s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 13m 11s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 02m 29s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 15m 35s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 02m 53s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 16m 19s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 04m 14s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 17m 43s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 05m 01s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 25m 05s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 12m 37s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 27m 00s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 18m 48s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 27m 47s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 23m 29s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 29m 51s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 24m 37s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.05 at 17h 30m 26s.xml">
+    <history-entry file="AddFoodOrders - 2018.12.05 at 18h 26m 54s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -864,7 +863,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3251073" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -966,16 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -986,10 +975,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/Navigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/FoodOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="156">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1101#1102#0" expanded="true" />
@@ -1004,44 +1037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/FoodOrders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/appmanager/Navigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adrs/test/AddFoodOrders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="221">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

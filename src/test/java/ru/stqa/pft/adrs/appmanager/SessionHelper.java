@@ -20,6 +20,6 @@ public class SessionHelper extends HelperBase {
 
     public void selectBranch() {
         new Select(wd.findElement(By.id("selectKitchen"))).selectByVisibleText("Новокузнецкий");
-       click(By.xpath(".//*[@class=\"btn btn-lg btn-default btn-block\"]"));
+        click(By.xpath(".//*[@class=\"btn btn-lg btn-default btn-block\"]"));
     }
 }

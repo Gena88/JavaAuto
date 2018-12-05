@@ -15,10 +15,10 @@ public class TestBase {
 
     }
 
-    @AfterMethod
-    public void tearDown() {
-
-        app.stop();
-    }
+//    @AfterMethod
+//    public void tearDown() {
+//
+//        app.stop();
+//    }
 
 }

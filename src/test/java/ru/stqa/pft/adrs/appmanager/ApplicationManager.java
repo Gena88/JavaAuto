@@ -27,7 +27,7 @@ public class ApplicationManager {
 
 
 
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.get("http://93.158.194.208:6005/login");
 //        wd.findElement(By.cssSelector("html")).click();
         foodOrders = new FoodOrders(wd);

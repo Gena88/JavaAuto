@@ -21,14 +21,14 @@ public class Navigation extends HelperBase {
 //        wd.findElement(By.xpath(".//*[@class=\"navbar-brand nav-button\"]")).click();
 //        wd.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div/div/div[1]/div/div/div[1]/a")).click();
 //        wd.findElement(By.cssSelector("a.nav-button")).click();
-        wd.findElement(By.cssSelector("a[href = \"/operator/new/products\"]")).click();
+        click(By.cssSelector("a[href = \"/operator/new/products\"]"));
 //        wd.findElement(By.xpath("//a[.= \"Новый заказ\"]"));
     }
 
     public void ss() {
         try {
 
-            Thread.sleep(3000);     //1000-задержка  на 1000 миллисекунду = 1 секунда
+            Thread.sleep(5000);     //1000-задержка  на 1000 миллисекунду = 1 секунда
 
         } catch (InterruptedException e) {
             System.err.println(e.getMessage());
