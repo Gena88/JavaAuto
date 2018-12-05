@@ -19,7 +19,10 @@ public class FoodOrders extends HelperBase {
 //        click(By.xpath("//a[.=\"WOK\"]"));
 //        click(By.cssSelector("a[href = \"#\"]"));
 //        click(By.cssSelector("#oper-top > div.col-md-3 > div > div > div > ng-include > div > div > div > div:nth-child(1) > div.child > a"));
-        click(By.xpath("//*[@id=\"oper-top\"]/div[1]/div/div/div/ng-include/div/div/div/div[1]/div[1]/a"));
+//        click(By.xpath(".//*[@class=\"item-header ng-binding\"]"));
+//        click(By.xpath("//a[contains(.,\"WOK\")]"));
+//        click(By.xpath("//*[@id=\"oper-top\"]/div[1]/div/div/div/ng-include/div/div/div/div[1]/div[1]/a"));
+        wd.findElement(By.xpath("//*[@id=\"oper-top\"]/div[1]/div/div/div/ng-include/div/div/div/div[1]/div[1]/a")).click();
 
     }
 
