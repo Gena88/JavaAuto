@@ -12,33 +12,40 @@ public class FoodOrders extends HelperBase {
         super(wd);
     }
 
+    //Выбор категории: WOK
+    public void selectWOK() {
 
-
-
-    /*
-    public void submitContactCreation() {
-
-        click(By.name("submit"));
+        wd.findElement(By.xpath(".//*[@class=\"item-header ng-binding\"]")).click();
     }
 
-    //Вспомагательный метод к неработающему тесту!!!
-    public void submintContact() {
 
-        click(By.name("update"));
+    //Добавить в заказ: Удон Говяжий (нормальный)
+    public void choiceUdonWithBeef_normal() {
+
+        wd.findElement(By.cssSelector("div.panel-warning:nth-child(1) > div:nth-child(2) > button:nth-child(1)")).click();
     }
 
-    //Вспомагательный метод к неработающему тесту!!!
-    public void initContact() {
-        click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[7]/a/img"));
 
+    //Выбор категории: Напитки --> Безалкогольные
+    public void selectDrinks_NonAlcoholic() {
+
+//        wd.findElement(By.xpath(".//*[@class=\"item-header ng-binding text-selected\"]")).click();
+        wd.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div/div/div/ui-view/div[1]/div[1]/div/div/div/ng-include/div/div/div/div[7]/div[2]/div[1]/div[1]/a")).click();
     }
 
-    //Вспомагательный метод к неработающему тесту!!!
-    public void selectContact() {
-        click(By.id("id2"));
 
+    //Добавить в заказ: Морс Ягодный
+    public void choiceFruitJuice() {
+
+        wd.findElement(By.cssSelector("div.col-md-3:nth-child(30) > div:nth-child(2) > button:nth-child(1)")).click();
     }
-    */
+
+    
+    //Добавить позицию в заказ (В ДАННОМ СЛУЧАЕ МОРС ЯГОДНЫй)
+    public void addItemFood() {
+
+        wd.findElement(By.cssSelector(".tbody > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > button:nth-child(3)")).click();
+    }
 
 }
 
