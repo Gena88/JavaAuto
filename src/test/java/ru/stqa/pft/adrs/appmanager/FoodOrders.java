@@ -40,7 +40,7 @@ public class FoodOrders extends HelperBase {
         wd.findElement(By.cssSelector("div.col-md-3:nth-child(30) > div:nth-child(2) > button:nth-child(1)")).click();
     }
 
-    
+
     //Добавить позицию в заказ (В ДАННОМ СЛУЧАЕ МОРС ЯГОДНЫй)
     public void addItemFood() {
 
