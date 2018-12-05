@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import ru.stqa.pft.adrs.model.ContactDate;
 
 public class FoodOrders extends HelperBase {
-    private WebDriver wd;
+
 
     public FoodOrders(WebDriver wd) {
 
@@ -15,7 +15,8 @@ public class FoodOrders extends HelperBase {
     //Выбор категории: WOK
     public void selectWOK() {
 
-        wd.findElement(By.xpath(".//*[@class=\"item-header ng-binding\"]")).click();
+//        wd.findElement(By.xpath(".//*[@class=\"item-header ng-binding\"]")).click();
+        click(By.cssSelector(".text-selected"));
     }
 
 
@@ -23,6 +24,7 @@ public class FoodOrders extends HelperBase {
     public void choiceUdonWithBeef_normal() {
 
         wd.findElement(By.cssSelector("div.panel-warning:nth-child(1) > div:nth-child(2) > button:nth-child(1)")).click();
+//        click(By.xpath("/html/body/div[2]/div/div/div/div/div/div/div/ui-view/div[1]/div[2]/div/div/div/ng-include/div[1]/div[2]/button[1]"));
     }
 
 

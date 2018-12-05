@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Navigation extends HelperBase {
-    private WebDriver wd;
+
 
     public Navigation(WebDriver wd) {
         super (wd);
@@ -25,23 +25,13 @@ public class Navigation extends HelperBase {
 //        wd.findElement(By.xpath("//a[.= \"Новый заказ\"]"));
     }
 
-   /*
-    //Переход на страницу ГРУППЫ
-    public void gotoGroupPage() {
-        click(By.linkText("groups"));
+    public void ss() {
+        try {
+
+            Thread.sleep(3000);     //1000-задержка  на 1000 миллисекунду = 1 секунда
+
+        } catch (InterruptedException e) {
+            System.err.println(e.getMessage());
+        }
     }
-
-    //Переход на страницу СОЗДАНИЯ КОНТАКТА
-    public void gotoContactNew(){
-        click(By.linkText("add new"));
-
-    }
-
-    //Возврат на ГЛАВНУЮ СТРАНИЦУ
-    public void gotoHomePage(){
-        click(By.linkText("home page"));
-
-    }
-    */
-
 }

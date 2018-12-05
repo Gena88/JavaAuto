@@ -9,11 +9,13 @@ public class AddFoodOrders extends TestBase {
 
 
     public void testAddFoodOrders(){
-        app.getNavigation().gotoHomePage();
+//        app.getNavigation().gotoHomePage();
         app.getNavigation().gotoNewOrder();
         app.getFoodOrders().selectWOK();
+        app.getNavigation().ss();
         app.getFoodOrders().choiceUdonWithBeef_normal();
-//         ** Проверка:
+        app.getNavigation().ss();
+//        ** Проверка:
 //        *** Блюдо добавлено в нижнюю таблицу:
 //        **** № - 1
 //        **** Блюдо -  Удон с говядиной Ньюпай Обычный

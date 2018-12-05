@@ -12,6 +12,7 @@ public class ApplicationManager {
     private FoodOrders foodOrders;
     private Navigation navigation;
     private GroupHelper groupHelper;
+    private SessionHelper sessionHelper;
     private String browser;
 
     public ApplicationManager(String browser) {
@@ -28,12 +29,14 @@ public class ApplicationManager {
 
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         wd.get("http://93.158.194.208:6005/login");
-        wd.findElement(By.cssSelector("html")).click();
+//        wd.findElement(By.cssSelector("html")).click();
         foodOrders = new FoodOrders(wd);
         groupHelper = new GroupHelper(wd);
         navigation = new Navigation(wd);
+        sessionHelper = new SessionHelper(wd);
+        sessionHelper.login("test", "test");
+        sessionHelper.selectBranch();
 
-        wd.findElement(By.linkText("home")).click();
     }
 
     public void stop() {
