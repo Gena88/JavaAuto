@@ -9,7 +9,7 @@ public class AddFoodOrders extends TestBase {
 
 
     public void testAddFoodOrders(){
-        Navigation.gotoHomePage();
+        app.getNavigation().gotoHomePage();
         gotoNewOrder();
         selectWOK();
         choiceUdonWithBeef_normal();
