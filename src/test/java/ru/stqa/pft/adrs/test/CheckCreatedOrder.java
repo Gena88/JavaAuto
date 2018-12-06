@@ -18,6 +18,7 @@ public class CheckCreatedOrder extends TestBase {
         app.getFoodOrders().selectDrinks_NonAlcoholic();
         app.getFoodOrders().choiceFruitJuice();
         app.getFoodOrders().addItemFood();
+
         app.getNavigation().gotoMakingOrder();
         app.getMakingOrders().filingPhoneClient();
         app.getNavigation().ss();

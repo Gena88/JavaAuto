@@ -18,7 +18,7 @@ public class FillDataClient extends TestBase {
         app.getFoodOrders().selectDrinks_NonAlcoholic();
         app.getFoodOrders().choiceFruitJuice();
         app.getFoodOrders().addItemFood();
-
+//
 
 //        -Заполнение данных о клиенте-
         app.getNavigation().gotoMakingOrder();
@@ -34,7 +34,7 @@ public class FillDataClient extends TestBase {
 //        ** Источник заказа - Телефон
 //        ** Сдача с - 900
 //        ** К оплате - 825,00 р.
-        app.getMakingOrders().clickCookButton();
+
 //        ** Проверка:
 //        *** Вернулись на страницу /operator/all
 
