@@ -14,7 +14,7 @@ public class HomePage extends HelperBase {
         type(By.cssSelector("body > div.ng-scope > div > div > div > div > div > div > div.flex-full-width-block > div > div > div.navbar-collapse.collapse.navbar-warning-collapse > form > div > input"), "0001239745");
     }
 
-    public void search(){
+    public void goSearch(){
         click(By.cssSelector("#go"));
     }
 

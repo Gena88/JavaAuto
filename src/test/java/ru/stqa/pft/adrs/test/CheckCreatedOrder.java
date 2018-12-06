@@ -10,7 +10,7 @@ public class CheckCreatedOrder extends TestBase {
     public void ensurePrecoding(){
         app.goTo().homePage();
         app.goTo().newOrder();
-        app.foodOrders().createFoodOrders();
+        app.foodOrders().create();
         app.goTo().gotoMakingOrder();
         app.makingOrders().createFinishOrders();
     }
@@ -20,7 +20,7 @@ public class CheckCreatedOrder extends TestBase {
     public void testCheckCreatedOrder(){
 
         app.homePage().criteriaSearch();
-        app.homePage().search();
+        app.homePage().goSearch();
 //        ** Проверка:
 //        *** Нашелся заказ с параметрами:
 //        **** Статус - на кухне

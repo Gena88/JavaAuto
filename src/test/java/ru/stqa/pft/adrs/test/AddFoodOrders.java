@@ -11,9 +11,9 @@ public class AddFoodOrders extends TestBase {
         app.goTo().homePage();
         app.goTo().newOrder();
         app.goTo().pause();
-        app.foodOrders().selectWOK();
+        app.foodOrders().wok();
         app.goTo().pause();
-        app.foodOrders().choiceUdonWithBeef_normal();
+        app.foodOrders().udonWithBeef_normal();
 //        ** Проверка:
 //        *** Блюдо добавлено в нижнюю таблицу:
 //        **** № - 1
@@ -25,8 +25,8 @@ public class AddFoodOrders extends TestBase {
 //        **** Цена - 385 р.
 //        **** Скидка - 0 р.
 //        **** Стоимость - 385 р.
-        app.foodOrders().selectDrinks_NonAlcoholic();
-        app.foodOrders().choiceFruitJuice();
+        app.foodOrders().drinks_NonAlcoholic();
+        app.foodOrders().fruitJuice();
         app.foodOrders().addItemFood();
 //        ** Проверка:
 //        *** Блюдо "Морс ягодный" в нижней таблице:

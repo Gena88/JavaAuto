@@ -11,7 +11,7 @@ public class FillDataClient extends TestBase {
         //Формирование заказа
         app.goTo().homePage();
         app.goTo().newOrder();
-        app.foodOrders().createFoodOrders();
+        app.foodOrders().create();
     }
 
 
@@ -20,13 +20,13 @@ public class FillDataClient extends TestBase {
 
         //Заполнение данных о клиенте
         app.goTo().gotoMakingOrder();
-        app.makingOrders().filingPhoneClient();
+        app.makingOrders().phoneClient();
         app.goTo().pause();
-        app.makingOrders().filingNameClient();
-        app.makingOrders().filingAdressClient();
+        app.makingOrders().nameClient();
+        app.makingOrders().adressClient();
         app.makingOrders().paymentMethod();
         app.goTo().pause();
-        app.makingOrders().clickCookButton();
+        app.makingOrders().cookButton();
 //        * Проверка автоматически заполненных полей:
 //        ** Название филиала - Новокузнецкий
 //        ** Источник заказа - Телефон

@@ -11,17 +11,17 @@ public class MakingOrders extends HelperBase {
     }
 
     //Заполнение телефона клиента
-    public void filingPhoneClient(){
+    public void phoneClient(){
         type(By.cssSelector("#phone"), "0001239745");
     }
 
     //Заполнение фамилии и имени клиента
-    public void filingNameClient(){
+    public void nameClient(){
         type(By.cssSelector("#name"), "Тестов Тест");
     }
 
     //Заполнение адреса клиента
-    public void filingAdressClient(){
+    public void adressClient(){
         if(wd.findElement(By.xpath("//i[3]")) != null) {
             click(By.cssSelector(".fa:nth-child(3)"));
             paused();
@@ -48,19 +48,19 @@ public class MakingOrders extends HelperBase {
     }
 
     //Нажать на кнопку "Готовить!"
-    public void clickCookButton(){
+    public void cookButton(){
         click(By.cssSelector(".btn-none-transition:nth-child(2)"));
     }
 
     public void createFinishOrders() {
 
-        filingPhoneClient();
+        phoneClient();
         paused();
-        filingNameClient();
-        filingAdressClient();
+        nameClient();
+        adressClient();
         paymentMethod();
         paused();
-        clickCookButton();
-        clickCookButton();
+        cookButton();
+        cookButton();
     }
 }
