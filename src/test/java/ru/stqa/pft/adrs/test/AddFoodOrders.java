@@ -1,5 +1,6 @@
 package ru.stqa.pft.adrs.test;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.stqa.pft.adrs.appmanager.Navigation;
 
@@ -18,6 +19,7 @@ public class AddFoodOrders extends TestBase {
 //        ** Проверка:
 //        *** Блюдо добавлено в нижнюю таблицу:
 //        **** № - 1
+//        Assert.assertTrue(app.getFoodOrders().assertElementText());
 //        **** Блюдо -  Удон с говядиной Ньюпай Обычный
 //        **** Есть кнопка "+" перед названием блюда
 //        **** Кол-во блюд - 1

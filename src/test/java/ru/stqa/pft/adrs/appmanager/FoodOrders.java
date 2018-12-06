@@ -54,6 +54,10 @@ public class FoodOrders extends HelperBase {
         click(By.cssSelector(".tbody > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > button:nth-child(3)"));
     }
 
+
+//    number1 = wd.findElement(By.cssSelector("/html/body/div[2]/div/div/div/div/div/div/div/ui-view/div[2]/div/ng-include/div/div[2]/div[1]/div/div[1]/span"));
+    
+
     public void createFoodOrders() {
         paused();
         selectWOK();
