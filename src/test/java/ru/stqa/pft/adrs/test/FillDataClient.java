@@ -34,7 +34,7 @@ public class FillDataClient extends TestBase {
 //        ** Источник заказа - Телефон
 //        ** Сдача с - 900
 //        ** К оплате - 825,00 р.
-//        * Нажать кнопку "Готовить!"
+        app.getMakingOrders().clickCookButton();
 //        ** Проверка:
 //        *** Вернулись на страницу /operator/all
 

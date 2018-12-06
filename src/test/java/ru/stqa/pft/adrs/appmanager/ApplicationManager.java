@@ -12,6 +12,7 @@ public class ApplicationManager {
     private Navigation navigation;
     private MakingOrders makingOrders;
     private SessionHelper sessionHelper;
+    private HomePage homePage;
     private String browser;
 
     public ApplicationManager(String browser) {
@@ -33,6 +34,7 @@ public class ApplicationManager {
         makingOrders = new MakingOrders(wd);
         navigation = new Navigation(wd);
         sessionHelper = new SessionHelper(wd);
+        homePage = new HomePage(wd);
         sessionHelper.login("test", "test");
         sessionHelper.selectBranch();
 
@@ -52,5 +54,9 @@ public class ApplicationManager {
 
     public FoodOrders getFoodOrders() {
         return foodOrders;
+    }
+
+    public HomePage getHomePage() {
+        return homePage;
     }
 }

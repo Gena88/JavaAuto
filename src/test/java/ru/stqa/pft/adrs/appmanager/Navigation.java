@@ -36,7 +36,7 @@ public class Navigation extends HelperBase {
     public void ss() {
         try {
 
-            Thread.sleep(1500);     //1000-задержка  на 1000 миллисекунду = 1 секунда
+            Thread.sleep(2500);     //1000-задержка  на 1000 миллисекунду = 1 секунда
 
         } catch (InterruptedException e) {
             System.err.println(e.getMessage());

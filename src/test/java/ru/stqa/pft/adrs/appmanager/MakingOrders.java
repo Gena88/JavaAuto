@@ -22,19 +22,19 @@ public class MakingOrders extends HelperBase {
 
     //Заполнение адреса клиента
     public void filingAdressClient(){
-//        if(wd.findElement(By.xpath("//i[3]")) != null) {
-//            click(By.cssSelector(".fa:nth-child(3)"));
-//            paused();
-//            click(By.cssSelector("button.btn.btn-success"));
-//            type(By.cssSelector("#inputAddress"), "Пятницкая улица, 24");
-//            paused();
-//            click(By.cssSelector("span.ng-binding.ng-scope"));
-//        } else {
+        if(wd.findElement(By.xpath("//i[3]")) != null) {
+            click(By.cssSelector(".fa:nth-child(3)"));
+            paused();
+            click(By.cssSelector("button.btn.btn-success"));
+            type(By.cssSelector("#inputAddress"), "Пятницкая улица, 24");
+            paused();
+            click(By.cssSelector("span.ng-binding.ng-scope"));
+        } else {
             type(By.cssSelector("#inputAddress"), "Пятницкая улица, 24");
 //            type(By.id("inputAddress"), "Пятницкая улица, 24");
             paused();
             click(By.cssSelector("span.ng-binding.ng-scope"));
-//        }
+        }
     }
 
 
