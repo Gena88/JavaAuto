@@ -9,16 +9,11 @@ public class FillDataClient extends TestBase {
 
     public void testFillDataClient(){
 
+        //предусловие
         app.getNavigation().gotoHomePage();
         app.getNavigation().gotoNewOrder();
-        app.getNavigation().ss();
-        app.getFoodOrders().selectWOK();
-        app.getNavigation().ss();
-        app.getFoodOrders().choiceUdonWithBeef_normal();
-        app.getFoodOrders().selectDrinks_NonAlcoholic();
-        app.getFoodOrders().choiceFruitJuice();
-        app.getFoodOrders().addItemFood();
-//
+        app.getFoodOrders().createFoodOrders();
+
 
 //        -Заполнение данных о клиенте-
         app.getNavigation().gotoMakingOrder();

@@ -54,5 +54,15 @@ public class FoodOrders extends HelperBase {
         click(By.cssSelector(".tbody > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > button:nth-child(3)"));
     }
 
+    public void createFoodOrders() {
+        paused();
+        selectWOK();
+        paused();
+        choiceUdonWithBeef_normal();
+        selectDrinks_NonAlcoholic();
+        choiceFruitJuice();
+        addItemFood();
+    }
+
 }
 

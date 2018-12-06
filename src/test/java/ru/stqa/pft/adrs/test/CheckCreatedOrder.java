@@ -9,26 +9,14 @@ public class CheckCreatedOrder extends TestBase {
 
     public void testCheckCreatedOrder(){
 
+        //Предусловие
         app.getNavigation().gotoHomePage();
         app.getNavigation().gotoNewOrder();
-        app.getNavigation().ss();
-        app.getFoodOrders().selectWOK();
-        app.getNavigation().ss();
-        app.getFoodOrders().choiceUdonWithBeef_normal();
-        app.getFoodOrders().selectDrinks_NonAlcoholic();
-        app.getFoodOrders().choiceFruitJuice();
-        app.getFoodOrders().addItemFood();
-
+        app.getFoodOrders().createFoodOrders();
         app.getNavigation().gotoMakingOrder();
-        app.getMakingOrders().filingPhoneClient();
-        app.getNavigation().ss();
-        app.getMakingOrders().filingNameClient();
-        app.getMakingOrders().filingAdressClient();
-        app.getMakingOrders().paymentMethod();
-        app.getNavigation().ss();
-        app.getMakingOrders().clickCookButton();
-        app.getMakingOrders().clickCookButton();
+        app.getMakingOrders().createFinishOrders();
 
+        //Тест
         app.getHomePage().criteriaSearch();
         app.getHomePage().search();
 //        ** Проверка:

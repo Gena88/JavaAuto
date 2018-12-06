@@ -52,4 +52,15 @@ public class MakingOrders extends HelperBase {
         click(By.cssSelector(".btn-none-transition:nth-child(2)"));
     }
 
+    public void createFinishOrders() {
+
+        filingPhoneClient();
+        paused();
+        filingNameClient();
+        filingAdressClient();
+        paymentMethod();
+        paused();
+        clickCookButton();
+        clickCookButton();
+    }
 }
