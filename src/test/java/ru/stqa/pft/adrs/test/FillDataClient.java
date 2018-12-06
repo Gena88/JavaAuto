@@ -1,5 +1,6 @@
 package ru.stqa.pft.adrs.test;
 
+import org.hamcrest.MatcherAssert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,6 @@ public class FillDataClient extends TestBase {
 
     @Test
     public void testFillDataClient(){
-
         //Заполнение данных о клиенте
         app.goTo().gotoMakingOrder();
         app.makingOrders().phoneClient();
@@ -27,6 +27,8 @@ public class FillDataClient extends TestBase {
         app.makingOrders().paymentMethod();
         app.goTo().pause();
         app.makingOrders().cookButton();
+
+//        MatcherAssert
 //        * Проверка автоматически заполненных полей:
 //        ** Название филиала - Новокузнецкий
 //        ** Источник заказа - Телефон

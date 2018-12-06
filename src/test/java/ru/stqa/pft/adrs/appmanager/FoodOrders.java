@@ -54,7 +54,7 @@ public class FoodOrders extends HelperBase {
 
 
 //    number1 = wd.findElement(By.cssSelector("/html/body/div[2]/div/div/div/div/div/div/div/ui-view/div[2]/div/ng-include/div/div[2]/div[1]/div/div[1]/span"));
-    
+
 
     public void create() {
         paused();

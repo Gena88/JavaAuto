@@ -16,6 +16,7 @@ public class AddFoodOrders extends TestBase {
         app.foodOrders().udonWithBeef_normal();
 //        ** Проверка:
 //        *** Блюдо добавлено в нижнюю таблицу:
+//         MatcherAssert
 //        **** № - 1
 //        Assert.assertTrue(app.foodOrders().assertElementText());
 //        **** Блюдо -  Удон с говядиной Ньюпай Обычный
