@@ -1,25 +1,23 @@
 package ru.stqa.pft.adrs.test;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-import ru.stqa.pft.adrs.appmanager.Navigation;
 
 
-@Test
 public class AddFoodOrders extends TestBase {
 
-
+     @Test
     public void testAddFoodOrders(){
-        app.getNavigation().gotoHomePage();
-        app.getNavigation().gotoNewOrder();
-        app.getNavigation().ss();
-        app.getFoodOrders().selectWOK();
-        app.getNavigation().ss();
-        app.getFoodOrders().choiceUdonWithBeef_normal();
+        //Формирование заказа
+        app.goTo().homePage();
+        app.goTo().newOrder();
+        app.goTo().pause();
+        app.foodOrders().selectWOK();
+        app.goTo().pause();
+        app.foodOrders().choiceUdonWithBeef_normal();
 //        ** Проверка:
 //        *** Блюдо добавлено в нижнюю таблицу:
 //        **** № - 1
-//        Assert.assertTrue(app.getFoodOrders().assertElementText());
+//        Assert.assertTrue(app.foodOrders().assertElementText());
 //        **** Блюдо -  Удон с говядиной Ньюпай Обычный
 //        **** Есть кнопка "+" перед названием блюда
 //        **** Кол-во блюд - 1
@@ -27,9 +25,9 @@ public class AddFoodOrders extends TestBase {
 //        **** Цена - 385 р.
 //        **** Скидка - 0 р.
 //        **** Стоимость - 385 р.
-        app.getFoodOrders().selectDrinks_NonAlcoholic();
-        app.getFoodOrders().choiceFruitJuice();
-        app.getFoodOrders().addItemFood();
+        app.foodOrders().selectDrinks_NonAlcoholic();
+        app.foodOrders().choiceFruitJuice();
+        app.foodOrders().addItemFood();
 //        ** Проверка:
 //        *** Блюдо "Морс ягодный" в нижней таблице:
 //        **** № - 2

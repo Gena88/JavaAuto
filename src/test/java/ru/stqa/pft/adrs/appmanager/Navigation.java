@@ -11,12 +11,12 @@ public class Navigation extends HelperBase {
     }
 
     //Переход на стартовую страницу (operator/all)
-    public void gotoHomePage() {
+    public void homePage() {
         wd.get("http://93.158.194.208:6005/operator/all");
     }
 
     //Переход по кнопки к формированию нового заказа
-    public void gotoNewOrder() {
+    public void newOrder() {
 //        wd.findElement(By.xpath(".//*[@class=\"navbar-brand nav-button\"]")).click();
 //        wd.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div/div/div[1]/div/div/div[1]/a")).click();
 //        wd.findElement(By.cssSelector("a.nav-button")).click();
@@ -33,7 +33,7 @@ public class Navigation extends HelperBase {
 //        wd.findElement(By.xpath("//a[.= \"Новый заказ\"]"));
     }
 
-    public void ss() {
+    public void pause() {
         try {
 
             Thread.sleep(2500);     //1000-задержка  на 1000 миллисекунду = 1 секунда

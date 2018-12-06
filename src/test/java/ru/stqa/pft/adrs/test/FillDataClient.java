@@ -1,29 +1,32 @@
 package ru.stqa.pft.adrs.test;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import ru.stqa.pft.adrs.appmanager.Navigation;
 
 
-@Test
 public class FillDataClient extends TestBase {
 
+    @BeforeMethod
+    public void ensurePrecoding(){
+        //Формирование заказа
+        app.goTo().homePage();
+        app.goTo().newOrder();
+        app.foodOrders().createFoodOrders();
+    }
+
+
+    @Test
     public void testFillDataClient(){
 
-        //предусловие
-        app.getNavigation().gotoHomePage();
-        app.getNavigation().gotoNewOrder();
-        app.getFoodOrders().createFoodOrders();
-
-
-//        -Заполнение данных о клиенте-
-        app.getNavigation().gotoMakingOrder();
-        app.getMakingOrders().filingPhoneClient();
-        app.getNavigation().ss();
-        app.getMakingOrders().filingNameClient();
-        app.getMakingOrders().filingAdressClient();
-        app.getMakingOrders().paymentMethod();
-        app.getNavigation().ss();
-        app.getMakingOrders().clickCookButton();
+        //Заполнение данных о клиенте
+        app.goTo().gotoMakingOrder();
+        app.makingOrders().filingPhoneClient();
+        app.goTo().pause();
+        app.makingOrders().filingNameClient();
+        app.makingOrders().filingAdressClient();
+        app.makingOrders().paymentMethod();
+        app.goTo().pause();
+        app.makingOrders().clickCookButton();
 //        * Проверка автоматически заполненных полей:
 //        ** Название филиала - Новокузнецкий
 //        ** Источник заказа - Телефон

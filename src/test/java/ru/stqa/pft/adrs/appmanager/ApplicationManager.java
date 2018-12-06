@@ -44,19 +44,19 @@ public class ApplicationManager {
         wd.quit();
     }
 
-    public MakingOrders getMakingOrders() {
+    public MakingOrders makingOrders() {
         return makingOrders;
     }
 
-    public Navigation getNavigation() {
+    public Navigation goTo() {
         return navigation;
     }
 
-    public FoodOrders getFoodOrders() {
+    public FoodOrders foodOrders() {
         return foodOrders;
     }
 
-    public HomePage getHomePage() {
+    public HomePage homePage() {
         return homePage;
     }
 }
